@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>test form</title>
+    </head>
+    <body>
+        <form>
+            <label>First Name: </label>
+            <input type="text" name=user><br>
+            <label>Last Name: </label>
+            <input type="text" name=pass><br>
+            <label for="browser">Choose your browser from the list:</label>
+            <input list="browsers" name="browser" id="browser">
+
+            <datalist id="browsers">
+            <option value="Java"></option>
+            <option value="PHP"></option>
+            <option value="Python"></option>
+            <option value="Go"></option>
+            <option value="C#"></option>
+            </datalist>
+
+            <button>Submit</button>
+            <input type="reset">
+        </form>
+    </body>
+</html>
