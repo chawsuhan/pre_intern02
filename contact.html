@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Page</title>
+        <style>
+            .container{
+                width: 100%;
+                height: 100%;
+            }
+            .header{
+            background-color:rgb(61, 110, 61);
+            width: 100%;
+            height: 10%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            }
+            .logo{
+                position: absolute;
+                padding-left: 120px;
+                margin-top: 12px;
+
+
+            }
+           
+            .menubar{
+                position: absolute;
+                margin-left: 400px;
+               
+               
+            }
+            .navul{
+                padding-left: 140px;
+                margin-top: 12px;
+               
+                
+            }
+            .navul li{
+                display: block;
+                float: left;
+                padding:10px;
+                list-style: none;
+                color: white;
+                position: relative;
+                
+            }
+            .dropdown{
+                position: relative;
+                display: inline-block;
+                padding-left: 10px;
+            }
+            .dropbtn{
+                background-color:rgb(61, 110, 61);
+                color: white;
+                padding:10px;
+                font: size 14px;
+                font-weight: bold;
+                
+            }
+            .dropdown-content{
+                background-color:rgb(61, 110, 61) ;
+                display: none;
+                position: absolute;
+                min-width: 160px;
+                color: white;
+                
+            }
+            .dropdown-content li{
+                color: white;
+                padding: 12px 16px;
+                display: block;
+                
+            }
+            .dropdown-content li:hover {background-color:rgb(61, 110, 61) ;}
+
+            .dropdown:hover .dropdown-content {display: block;}
+
+            .dropdown:hover .dropbtn {background-color:rgb(61, 110, 61);}
+            .mainbody{
+                width:100%;
+                height:60%;
+                font-family: Arial, Helvetica, sans-serif;
+                position: absolute;
+                margin-top: 60px;
+                
+            }
+            .office{
+                font-weight: lighter;
+                position: absolute;
+                padding-left: 100px;
+                width: 20%;
+                               
+            }
+            .formlist{
+                position: absolute;
+                margin-left: 200px;
+                padding-left: 400px;
+                width: 60%;
+                height: 80%;
+                font-family: Arial, Helvetica, sans-serif;
+                
+                           
+            }
+            .formlist input{
+                margin-top: 20px;
+                width: 70%;
+                height: 30%;
+            }
+            .formlist textarea{
+                margin-top: 20px;
+                width: 70%;
+                height: 30%;
+            }
+            .formlist button{
+                background-color: green;
+                width: 80px;
+                height: 40px;
+                margin-left: 500px;
+                margin-bottom: 100px;
+            }
+            .link{
+                width: 95%;
+                height: 90%;
+                margin-top: 400px;
+                margin-left: 0;
+                position: absolute;
+                padding-left: 100px;
+                padding-top: 0px;
+                font-weight: lighter;
+                background-color: rgba(209, 208, 208, 0.534);
+                
+            }
+            .link1{
+                font-weight: lighter;
+                position: absolute;
+                margin-top: 400px;
+                padding-left: 70px;
+                margin-left: 400px;
+                margin-right: 500px;
+            }
+            .fb_link{
+                position: absolute;
+                font-weight: lighter;
+                width: 30%;
+                height: 30%;
+                margin-top: 400px;
+                padding-left: 70px;
+                margin-left: 900px;
+                
+               
+            }
+            .footer{
+                margin-top: 900px;
+                background-color: green;
+                position: fixed;
+                text-align: center;
+                color: white;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                
+                font-size: small;
+            }
+ 
+            
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo"><img src="stl_logo.jpg" width="200px" height="40px"></div>
+               
+                <div class="menubar">
+                    <ul class="navul">
+                        <li>Home</li>
+                        <div class="dropdown">
+                            <button class="dropbtn">About Us</button>
+                            <div class="dropdown-content">
+                                <li>Profile</li>
+                                <li>Our Structure</li>
+                                <li>Our Commiment</li>
+                            </div>
+                        </div>
+                        <li>Services</li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Projects</button> 
+                            <div class="dropdown-content">
+                                <li>Industrial</li>
+                                <li>Commercial</li>
+                                <li>Construction & Interior</li>
+                                <li>Infrastructure</li>
+                            </div>
+                        </div>
+                        <li>Activities</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mainbody">
+                <h3 style="font-weight: lighter; text-decoration: underline; text-decoration-color: green; text-align: center;">CONTACT US</h3>
+                <div class="office">
+                    <h3 style="font-weight: lighter;"><u>OFFICE</u></h3>
+                    
+                    <p><img src="location.jpg" width="20px" height="20px">Room – 1008, 10th Floor, Building - B, 50th Street Condominium, 50th Street, Botahtaung Township, Yangon, Myanmar.
+
+                        <br><img src="phone.jpg" width="20px" height="20px">+(95) 9 4512 999 88, +(95) 9 535 1714
+                        
+                        <br><img src="email.jpg" width="20px" height="20px">info@sterling-myanmar.com
+                        </p>
+                </div>
+                <div class="formlist">
+                    <form>
+                        <label>Name</label><br>
+                        <input type="text" name="name" value="Name"><br><br>
+                        <label>Email</label><br>
+                        <input type="text" name="email" value="E-mail"><br><br>
+                        <label>Phone</label><br>
+                        <input type="text" name="phone" value="Phone"><br><br>
+                        <label>Message</label><br>
+                        <textarea name="message" >Message</textarea><br><br>
+                        <button>Send</button>
+                    </form>
+                </div>
+                <div class="link">
+                    <h3 style="padding-left: 40px;font-weight: lighter;text-decoration: underline;">QUICK LINKS</h3>
+                    <ul type="none">
+                        <li>Home</li>
+                        <li>About Us</li>
+                        <li>Services</li>
+                        <li>Projects</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                
+                <div class="link1">
+                    <h3 style="font-weight: lighter;"><u>CONTACT US</u></h3>
+                    
+                    <p><img src="location.jpg" width="20px" height="20px">Room – 1008, 10th Floor, Building - B, 50th Street Condominium, 50th Street, Botahtaung Township, Yangon, Myanmar.
+
+                        <br><img src="phone.jpg" width="20px" height="20px">+(95) 9 4512 999 88, +(95) 9 535 1714
+                        
+                        <br><img src="email.jpg" width="20px" height="20px">info@sterling-myanmar.com
+                        </p>
+                </div>
+                <div class="fb_link">
+                    <h3 style="font-weight: lighter;"><u>FACEBOOK LINK</u></h3>
+                    <img src="s.jpg" width="30px" height="30px"><a href="https://web.facebook.com/Sterling-Industrial-Technologies-Co-Ltd-167138143479014/">Sterling Industrial Technologies Co.,Ltd</a>
+                    <p>Be the first of your friends to like this.</p>
+                    <img src="fblike.jpg" width="300px" height="200px">
+                </div>
+            </div>
+            <div class="footer"> Copyright &copy STERLING MYANMAR. All Right Reserved. | Designed By Host Myanmar</div>
+        </div>
+    </body>
+    
+</html>
